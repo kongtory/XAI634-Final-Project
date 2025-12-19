@@ -1,0 +1,2 @@
+base-4
+trainable params: 1,703,936 || all params: 1,237,518,336 || trainable%: 0.1377
