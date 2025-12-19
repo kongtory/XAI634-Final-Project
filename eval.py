@@ -12,7 +12,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Evaluate Llama-3.2-1B with LoRA on TinyStories dataset.")
     
     parser.add_argument("--hf_token", type=str, default="", help="Hugging Face token for model access.")
-    parser.add_argument("--lora_path", type=int, default="./ex/qora-final", help="LoRA Path")
+    parser.add_argument("--lora_path", type=str, default="./ex/qora-final", help="LoRA Path")
 
     return parser.parse_args()
 
